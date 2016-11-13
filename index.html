@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Website</title>
+	<meta property="og:title" content="My website" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.yourwebsite.com" />
+	<meta property="og:image" content="http://www.yourwebsite.com/img/exemple.png" />
+	<script src="https://use.fontawesome.com/9b74bff87f.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="contact_form.js"></script>
+	<link rel="icon" type="image/png" href="img/exemple.png" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="content">
+		<header>	
+			<h1>Myself – What I do</h1>
+			<div id="social"><a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><a href="#"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a><a href="#"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+		</header>
+		
+		<hr>
+
+		<div id="block1" class="blocks">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices, quam vulputate interdum vehicula, risus ipsum sollicitudin tortor, et hendrerit arcu ligula a urna. Pellentesque eu nisl dictum, auctor ligula viverra, mollis nisl. Donec id ipsum sed nisl interdum euismod.</p> 
+			<p>Vivamus suscipit sem non mauris dapibus, vel rutrum lorem viverra. Vivamus congue tortor nec ante porttitor, ut feugiat arcu vehicula. Maecenas varius, felis non semper condimentum, eros magna venenatis ligula, non vestibulum sapien ante non magna. Morbi at ipsum pellentesque, tincidunt ante et, porta nibh.</p>
+		</div>
+
+		<div id="block2" class="blocks">
+			<h4>[Positions]</h4>
+			<p>2016 – <a href="#">A company</a></p>
+			<hr> 
+			<p>2015 – <a href="#">A company</a></p>
+			<hr> 
+			<p class="intern">2015 – <a href="#">Another company</a></p>
+			<hr> 
+			<p class="intern">2014 – <a href="#">Another company</a></p>
+			<hr> 
+			<p class="intern">2013 – <a href="#">Another company</a></p>
+			<p class="intern" style="text-align:right">(*)intern <span style="color: #333"><a href="http://yourwebsite.com/cv/cv.pdf">CV</a></span></p> 
+		</div>
+
+		<div id="block3" class="blocks">
+			<h4>[Skills]</h4>
+			<p>Stuff – Stuff – Stuff – Stuff – Stuff – Stuff – Stuff – Stuff – Stuff – Stuff</p>
+		</div>
+
+		<div id="block4" class="blocks">
+			<h4>[Work]</h4>
+			<div id="prod">
+				<a href="#"><img src="img/exemple.png" alt="."></a>
+				<a href="#"><img src="img/exemple.png" alt="."></a>
+				<a href="#"><img src="img/exemple.png" alt="."></a>
+				<a href="#"><img src="img/exemple.png" alt="."></a>
+				<a href="#"><img src="img/exemple.png" alt="."></a>
+				<a href="#"><img src="img/exemple.png" alt="."></a>
+			</div>
+		</div>
+
+		<div style="clear: both"></div>
+
+		<div id="block5" class="blocks">
+			<h4>[Contact]</h4>
+			<div id="contact">
+	            <div id="form_contact">
+	                <form id="form">
+	                    <p>
+	                        <label for="nom" class="nom">Name</label>
+	                        <br /><input id="name" type="text">
+	                    </p>
+	                    <p>
+	                        <label for="email">Email</label>
+	                        <br /><input id="email" type="email">
+	                    </p>
+	                    <p>
+	                        <label for="message">Message</label>
+	                        <br /><textarea id="message" rows="10"></textarea>
+	                    </p>
+	                    <p>
+	                        <input type="button" id="submit" value="Send" />
+	                    </p>
+	                    <p id="returnmessage"></p>
+	                </form> 
+	            </div>
+	        </div>
+		</div>
+
+		<div style="text-align:center">
+			<img id="profil" src="img/exemple.png" alt="." title ="."/>
+		</div>
+
+	</div>
+
+	<footer class="blocks">
+		<p><i class="fa fa-copyright" aria-hidden="true"></i> Julien Jégo – 2017</p>
+	</footer>
+
+</body>
+</html>
